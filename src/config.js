@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 module.exports = {
-    token: process.env.TOKEN || "",  // your bot token
+    token: process.env.TOKEN || "OTM0MTcxODk3NTgxNjk5MTEz.YesNYA.EXzOn9jTixRh5-JgL0P6HKQvymk",  // your bot token
     prefix: process.env.PREFIX || "!", // bot prefix
     ownerID: process.env.OWNERID || "491577179495333903", //your discord id
     mongourl: process.env.MONGO_URI || "", // MongoDb URL
